@@ -1,0 +1,60 @@
+body {
+    background-image:url(http://www.designerplastics.net/images/category_3/Shadow%20of%20Itachi%20Uchiha%20Wallpaper%20by%20viceroy13%20%20476643216500.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: 625px 255px; 
+    background-color: black;
+    color: rgb(255, 1, 1);
+    padding: 10px;
+    font-family: arial;
+}
+header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#all-contents {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(255, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+nav header {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 223, 0);
+    flex: 1;
+}
+nav ul {
+    list-style-image: none;
+}
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(255, 223, 0);
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(0, 0, 0);
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar img {
+    width: 300px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
